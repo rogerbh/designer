@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Sobre from "./pages/Sobre";
 import Contato from "./pages/Contato";
@@ -8,7 +8,7 @@ import "./styles.scss";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <nav>
         <a href="/">Home</a> | <a href="/sobre">Sobre</a> | <a href="/contato">Contato</a>
       </nav>
@@ -17,7 +17,7 @@ function App() {
         <Route path="/sobre" element={<Sobre />} />
         <Route path="/contato" element={<Contato />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
