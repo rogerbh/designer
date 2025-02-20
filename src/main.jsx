@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import Sobre from "./pages/Sobre";
 import Contato from "./pages/Contato";
@@ -10,7 +10,8 @@ function App() {
   return (
     <HashRouter>
       <nav>
-        <a href="/">Home</a> | <a href="/sobre">Sobre</a> | <a href="/contato">Contato</a>
+        <Link to="/">Home</Link> | <Link to="/sobre">Sobre</Link> |{" "}
+        <Link to="/contato">Contato</Link>
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />
