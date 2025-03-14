@@ -3,9 +3,10 @@ body {
   text-align: center;
   padding: 0;
   margin: 0;
+  background: #0D1B2A;
 }
 
-#root{
+#root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 0 20px;
@@ -13,13 +14,18 @@ body {
 }
 
 nav {
-  
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 30px 0;
 }
 
 a {
   margin: 0 10px;
   text-decoration: none;
-  color: blue;
+  color: #00A6FB;
 }
 
 a:hover {
