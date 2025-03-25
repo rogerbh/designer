@@ -23,7 +23,7 @@ export default function Hero() {
         </p>
 
         {/* Botões de ação */}
-        <div className="mt-6 flex justify-center md:justify-start space-x-4">
+        {/* <div className="mt-6 flex justify-center md:justify-start space-x-4">
           <button
             type="button"
             className="bg-blue-600 text-white px-6 py-3 rounded-xl text-lg shadow-md hover:bg-blue-700"
@@ -33,7 +33,7 @@ export default function Hero() {
           <button type="button" className="px-6 py-3 rounded-xl text-lg">
             Entre em Contato
           </button>
-        </div>
+        </div> */}
       </div>
 
       {/* Imagem ou avatar */}
