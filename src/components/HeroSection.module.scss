@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.FontCormorant300 {
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.FontCormorant400 {
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.FontCormorant500 {
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.FontCormorant600 {
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.FontCormorant700 {
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.FontEbGaramond400 {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.FontEbGaramond500 {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.FontEbGaramond600 {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.FontEbGaramond700 {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.FontEbGaramond800 {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+.HoldPicture {
+  position: relative;
+
+  .LeftOrnament {
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(118, 85, 142, 1) 100%
+    );
+    width: 0.9px;
+    height: 350px;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    z-index: -1;
+  }
+
+  .TopOrnament{
+    background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(118, 85, 142, 1) 100%
+    );
+    width: 250px;
+    height: 0.9px;
+    position: absolute;
+    top: 0;
+    left: 15px;
+    z-index: -1;
+  }
+
+  .RightOrnament {
+    background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(118, 85, 142, 1) 100%
+    );
+    width: 0.9px;
+    height: 400px;
+    position: absolute;
+    top: 15px;
+    right: 0;
+    z-index: -1;
+  }
+
+  .BottomOrnament{
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(118, 85, 142, 1) 100%
+    );
+    width: 250px;
+    height: 0.9px;
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+    z-index: -1;
+  }
+}

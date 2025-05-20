@@ -1,78 +1,88 @@
 import { Link } from "react-scroll";
 import styles from "./Nav.module.scss";
+import { FaWhatsapp } from "react-icons/fa";
+import roger from "../../assets/roger.jpg";
 
 export default function RegularNavbar() {
   return (
     <>
       <nav className={`${styles.RegularMenu} h-screen sticky top-0`}>
-        <ul className="flex flex-col">
-          <li>
-            <Link
-              to="about"
-              smooth={true}
-              duration={800}
-              spy={true}
-              activeClass={styles.ActiveSection}
+        <div style={{ width: "fit-content", display: "flex", justifyContent:'flex-end', marginRight:'20px' }}>
+          <img
+            src={roger}
+            alt="Rogério UX Designer"
+            className="rounded-1xl"
+            style={{ maxWidth: "200px" }}
+          />
+        </div>
 
-              className="cursor-pointer"
-            >
-              Sobre
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="projects"
-              smooth={true}
-              duration={800}
-              spy={true}
-              activeClass={styles.ActiveSection}
-
-              className="cursor-pointer"
-            >
-              Projetos
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="ia"
-              smooth={true}
-              duration={800}
-              spy={true}
-              activeClass={styles.ActiveSection}
-
-              className="cursor-pointer"
-            >
-              IA no meu trabalho
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="teste"
-              smooth={true}
-              duration={800}
-              spy={true}
-              activeClass={styles.ActiveSection}
-              offset={-50}
-              className="cursor-pointer"
-            >
-              Resumo técnico
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="teste2"
-              smooth={true}
-              duration={800}
-              spy={true}
-              activeClass={styles.ActiveSection}
-              offset={-50}
-              className="cursor-pointer"
-            >
-              Lado B
-            </Link>
-          </li>
-        </ul>
-        <div className={`sombra-right-column`} />
+        <div className="flex items-center">
+          <ul className="flex flex-col">
+            <li>
+              <Link
+                to="about"
+                smooth={true}
+                duration={800}
+                spy={true}
+                activeClass={styles.ActiveSection}
+                className="cursor-pointer"
+              >
+                Sobre
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="works"
+                smooth={true}
+                duration={800}
+                spy={true}
+                activeClass={styles.ActiveSection}
+                className="cursor-pointer"
+              >
+                Trabalhos
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="ia"
+                smooth={true}
+                duration={800}
+                spy={true}
+                activeClass={styles.ActiveSection}
+                className="cursor-pointer"
+              >
+                IA no meu trabalho
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="teste"
+                smooth={true}
+                duration={800}
+                spy={true}
+                activeClass={styles.ActiveSection}
+                offset={-50}
+                className="cursor-pointer"
+              >
+                Resumo técnico
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="teste2"
+                smooth={true}
+                duration={800}
+                spy={true}
+                activeClass={styles.ActiveSection}
+                offset={-50}
+                className="cursor-pointer"
+              >
+                Lado B
+              </Link>
+            </li>
+          </ul>
+          <div className={`sombra-right-column`} />
+        </div>
       </nav>
       <style>
         {`

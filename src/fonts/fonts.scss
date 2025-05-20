@@ -1,0 +1,42 @@
+// Importando as fontes do Google
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300..700&family=EB+Garamond:wght@400..800&display=swap');
+
+// 🟣 Variáveis para as famílias de fontes
+$font-cormorant: "Cormorant", serif;
+$font-eb-garamond: "EB Garamond", serif;
+
+// 🟣 Variáveis para os pesos das fontes
+$weight-300: 300;
+$weight-400: 400;
+$weight-500: 500;
+$weight-600: 600;
+$weight-700: 700;
+$weight-800: 800;
+
+// 🟣 Mixins para facilitar o uso das fontes
+@mixin font-cormorant($weight) {
+  font-family: $font-cormorant;
+  font-optical-sizing: auto;
+  font-weight: $weight;
+  font-style: normal;
+}
+
+@mixin font-eb-garamond($weight) {
+  font-family: $font-eb-garamond;
+  font-optical-sizing: auto;
+  font-weight: $weight;
+  font-style: normal;
+}
+
+// 🟣 Aplicando classes com as variáveis
+.FontCormorant300 { @include font-cormorant($weight-300); }
+.FontCormorant400 { @include font-cormorant($weight-400); }
+.FontCormorant500 { @include font-cormorant($weight-500); }
+.FontCormorant600 { @include font-cormorant($weight-600); }
+.FontCormorant700 { @include font-cormorant($weight-700); }
+
+.FontEbGaramond400 { @include font-eb-garamond($weight-400); }
+.FontEbGaramond500 { @include font-eb-garamond($weight-500); }
+.FontEbGaramond600 { @include font-eb-garamond($weight-600); }
+.FontEbGaramond700 { @include font-eb-garamond($weight-700); }
+.FontEbGaramond800 { @include font-eb-garamond($weight-800); }
