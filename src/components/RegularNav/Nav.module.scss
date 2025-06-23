@@ -39,7 +39,7 @@
   display: flex;
   color: #999;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 18px;
   justify-content: flex-end;
   padding: 5px 20px 5px 20px;
   border-top-left-radius: 4px;
@@ -75,34 +75,34 @@
     background-color: #D3B3E5 ;
     border-left-width: 5px;
     border-left-color: #6A3D75 ;
-    font-size: 26px;
+    font-size: 20px;
   }
   &:nth-child(2) a:hover,
   &:nth-child(2) a.ActiveSection {
     background-color: #a9c47f;
     border-left-width: 5px;
     border-left-color: #3e5412;
-    font-size: 26px;
+    font-size: 20px;
   }
   &:nth-child(3) a:hover,
   &:nth-child(3) a.ActiveSection {
     background-color: #6b89a5;
     border-left-width: 5px;
     border-left-color: #162b3a;
-    font-size: 26px;
+    font-size: 20px;
   }
   &:nth-child(4) a:hover,
   &:nth-child(4) a.ActiveSection {
     background-color: #d08c8c;
     border-left-width: 5px;
     border-left-color: #541f1f;
-    font-size: 26px;
+    font-size: 20px;
   }
   &:nth-child(5) a:hover,
   &:nth-child(5) a.ActiveSection {
     background-color: #e5c98a;
     border-left-width: 5px;
     border-left-color: #7a5f2d;
-    font-size: 26px;
+    font-size: 20px;
   }
 }

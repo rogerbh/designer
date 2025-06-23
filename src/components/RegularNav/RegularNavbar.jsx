@@ -1,20 +1,11 @@
 import { Link } from "react-scroll";
 import styles from "./Nav.module.scss";
 import { FaWhatsapp } from "react-icons/fa";
-import roger from "../../assets/roger.jpg";
 
 export default function RegularNavbar() {
   return (
     <>
       <nav className={`${styles.RegularMenu} h-screen sticky top-0`}>
-        <div style={{ width: "fit-content", display: "flex", justifyContent:'flex-end', marginRight:'20px' }}>
-          <img
-            src={roger}
-            alt="Rogério UX Designer"
-            className="rounded-1xl"
-            style={{ maxWidth: "200px" }}
-          />
-        </div>
 
         <div className="flex items-center">
           <ul className="flex flex-col">
